@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/MainMenu.unity
+    guid: eeba21972c853864e87371718a3bbc5e
+  - enabled: 1
+    path: Assets/Scenes/QuakeLikeFPSScene.unity
+    guid: 49f42fbfb7bf82048a3c02abb93e4e63
+  - enabled: 1
+    path: Assets/Scenes/YouLostMenu.unity
+    guid: c25fe7751d88632489f45519f37fb06e
+  - enabled: 1
+    path: Assets/Scenes/YouWinMenu.unity
+    guid: fe7d9e9f55d80b54185def1c1e824952
   m_configObjects: {}
