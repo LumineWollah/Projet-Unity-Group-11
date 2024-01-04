@@ -7,7 +7,7 @@ using Object = UnityEngine.Object;
 
 public class SwitchObjectRed : MonoBehaviour
 {
-    public bool isActive = true ;
+    private bool _IsActive ;
     public GameObject ObjectRed;
     public GameObject ObjectRedEmpty;
     
@@ -15,17 +15,16 @@ public class SwitchObjectRed : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.E))
         {
-            if(isActive == true)
-            {
-                ObjectRed.SetActive(true); 
+            if(_IsActive == true)
+            { ObjectRed.SetActive(true); 
                 ObjectRedEmpty.SetActive(false); 
-                isActive = false;
+                _IsActive = false;
             }
             else
             {
                 ObjectRed.SetActive(false); 
                 ObjectRedEmpty.SetActive(true); 
-                isActive = true;
+                _IsActive = true;
             }
         }
     }
