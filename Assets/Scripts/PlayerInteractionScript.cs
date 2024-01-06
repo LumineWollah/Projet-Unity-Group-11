@@ -15,7 +15,7 @@ public class PlayerInteractionScript : MonoBehaviour
                 if (Physics.Raycast(cameraTransform.position, direction,
                         out var hitInfo, 2f))
                 {
-                    var button = hitInfo.transform.GetComponent<ButtonScript>();
+                    var button = hitInfo.transform.GetComponent<DisactivateLazer>();
 
                     if (button != null)
                     {
