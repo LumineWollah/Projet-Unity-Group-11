@@ -12,15 +12,38 @@ public class QuakeLikeFPSScript : MonoBehaviour
 
     private Vector3 directionIntent;
     private bool wantToJump;
-    
+    public static int hp;
+    private GameObject Heart1;
+    private GameObject Heart2;
+    private GameObject Heart3;
     private void Start()
     {
+        Heart1 = GameObject.Find("Heart1");
+        Heart2 = GameObject.Find("Heart2");
+        Heart3 = GameObject.Find("Heart3");
         Cursor.lockState = CursorLockMode.Locked;
+        hp = 3;
     }
 
     // Update is called once per frame
     private void Update()
     {
+        if (hp >= 1) {
+            Heart1.SetActive(true);
+        } else {
+            Heart1.SetActive(false);
+        } 
+        if (hp >= 2) {
+            Heart2.SetActive(true);
+        } else {
+            Heart2.SetActive(false);
+        }
+        if (hp >= 3) {
+            Heart3.SetActive(true);
+        } else {
+            Heart3.SetActive(false);
+        }
+
         if (Input.GetKey(KeyCode.W))
         {
             directionIntent += Vector3.forward;
