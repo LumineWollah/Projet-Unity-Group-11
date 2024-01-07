@@ -64,6 +64,15 @@ public class QuakeLikeFPSScript : MonoBehaviour
             directionIntent += Vector3.right;
         }
 
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            speed = 10f;
+        }
+        else
+        {
+            speed = 5f;
+        }
+
         var mouseXDelta = Input.GetAxis("Mouse X");
 
         bodyTransform.Rotate(Vector3.up, Time.deltaTime * yawRotationSpeed * mouseXDelta);
