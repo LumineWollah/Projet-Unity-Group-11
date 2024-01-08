@@ -22,7 +22,7 @@ public class QuakeLikeFPSScript : MonoBehaviour
         Heart2 = GameObject.Find("Heart2");
         Heart3 = GameObject.Find("Heart3");
         Cursor.lockState = CursorLockMode.Locked;
-        hp = 3;
+        hp = 4; // 4 sinon bug 
     }
 
     // Update is called once per frame
