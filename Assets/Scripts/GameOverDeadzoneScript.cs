@@ -7,7 +7,7 @@ public class GameOverDeadzoneScript : MonoBehaviour
     public Collider Player;
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        Time.timeScale = 1;
+        Cursor.lockState = CursorLockMode.None;
+        SceneManager.LoadScene("YouLostMenu");
     }
 }
