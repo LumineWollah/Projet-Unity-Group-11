@@ -1,14 +1,14 @@
 ﻿using UnityEngine;
 
-public class BombeScript : MonoBehaviour
+public class soundTouch : MonoBehaviour
 {
-    public AudioClip explosionSound;
+    public AudioClip sound;
 
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.name.Equals("PlayerRoot"))
         {
-            AudioSource.PlayClipAtPoint(explosionSound, transform.position);
+            AudioSource.PlayClipAtPoint(sound, transform.position);
         }
     }
 }

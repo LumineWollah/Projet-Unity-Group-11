@@ -11,12 +11,14 @@ public class DisactivateLazer : MonoBehaviour
     public MeshRenderer meshRenderer;
 
     private bool _activatedState;
+    public AudioClip sound;
 
     public void ToggleButton()
     {
         _activatedState = !_activatedState;
         if (_activatedState)
         {
+            AudioSource.PlayClipAtPoint(sound, transform.position);
             meshRenderer.material = activatedMaterial;
             activated.Invoke();
             DestroyImmediate(delete);
