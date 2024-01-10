@@ -23,7 +23,7 @@ public class QuakeLikeFPSScript : MonoBehaviour
         Heart3 = GameObject.Find("Heart3");
         Cursor.lockState = CursorLockMode.Locked;
 
-        hp = 4; // 4 sinon bug 
+        hp = 3;
         cameraTransform.rotation =
             Quaternion.Euler(new Vector3(
                 0, 0, 0
