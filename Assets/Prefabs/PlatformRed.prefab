@@ -115,7 +115,7 @@ Transform:
   - {fileID: 2530192582612334999}
   - {fileID: 146071622339278086}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2819831677156278339
 MonoBehaviour:
@@ -131,6 +131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ObjectRed: {fileID: 5906345094159590251}
   ObjectRedEmpty: {fileID: 2752207540166269867}
+  sound: {fileID: 8300000, guid: 712e0663350f4294cbe94fd714e8d73f, type: 3}
 --- !u!1 &5906345094159590251
 GameObject:
   m_ObjectHideFlags: 0

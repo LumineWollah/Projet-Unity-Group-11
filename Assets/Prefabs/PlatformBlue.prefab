@@ -220,7 +220,7 @@ Transform:
   - {fileID: 2237688743767322296}
   - {fileID: 6356203963268137615}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2551278774420681026
 MonoBehaviour:
@@ -236,3 +236,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ObjectBlue: {fileID: 2032756197612694096}
   ObjectBlueEmpty: {fileID: 5470414043160595914}
+  sound: {fileID: 8300000, guid: 712e0663350f4294cbe94fd714e8d73f, type: 3}
