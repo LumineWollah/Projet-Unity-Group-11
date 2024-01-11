@@ -8818,7 +8818,29 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 256378453168520036, guid: a516f666017b2194da66394f673b5cdb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1709414115}
+    - targetCorrespondingSourceObject: {fileID: 5982672709159791169, guid: a516f666017b2194da66394f673b5cdb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1727072192}
   m_SourcePrefab: {fileID: 100100000, guid: a516f666017b2194da66394f673b5cdb, type: 3}
+--- !u!1 &1727072191 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5982672709159791169, guid: a516f666017b2194da66394f673b5cdb, type: 3}
+  m_PrefabInstance: {fileID: 1727072190}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1727072192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727072191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ae235cd6ad1f6549b094a778dc46da8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 5dc4bc3f7023e8a448dd89490540dee4, type: 3}
+  player: {fileID: 0}
 --- !u!1001 &1738595361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11316,8 +11338,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5982672709159791169, guid: a516f666017b2194da66394f673b5cdb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2027080489}
   m_SourcePrefab: {fileID: 100100000, guid: a516f666017b2194da66394f673b5cdb, type: 3}
+--- !u!1 &2027080488 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5982672709159791169, guid: a516f666017b2194da66394f673b5cdb, type: 3}
+  m_PrefabInstance: {fileID: 2027080487}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2027080489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027080488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ae235cd6ad1f6549b094a778dc46da8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 5dc4bc3f7023e8a448dd89490540dee4, type: 3}
+  player: {fileID: 0}
 --- !u!1 &2048183297
 GameObject:
   m_ObjectHideFlags: 0
