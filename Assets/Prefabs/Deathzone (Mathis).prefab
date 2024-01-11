@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6009705376507699680}
   - component: {fileID: 3227055409935759295}
   m_Layer: 0
-  m_Name: Deathzone
+  m_Name: Deathzone (Mathis)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
