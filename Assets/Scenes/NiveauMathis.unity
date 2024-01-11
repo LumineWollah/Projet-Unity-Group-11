@@ -147,6 +147,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2819831677156278339, guid: 1271261564b9345488defcc995db813c, type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 712e0663350f4294cbe94fd714e8d73f, type: 3}
     - target: {fileID: 3370194077530368179, guid: 1271261564b9345488defcc995db813c, type: 3}
       propertyPath: m_Name
       value: PlatformRed (5)
@@ -208,6 +212,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2819831677156278339, guid: 1271261564b9345488defcc995db813c, type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 712e0663350f4294cbe94fd714e8d73f, type: 3}
     - target: {fileID: 3370194077530368179, guid: 1271261564b9345488defcc995db813c, type: 3}
       propertyPath: m_Name
       value: PlatformRed (6)
@@ -435,6 +443,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7501795912698164118, guid: 1f478a35e68002f4aa795d1fc6b9a111, type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 712e0663350f4294cbe94fd714e8d73f, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1697,6 +1709,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2819831677156278339, guid: 1271261564b9345488defcc995db813c, type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 712e0663350f4294cbe94fd714e8d73f, type: 3}
     - target: {fileID: 3370194077530368179, guid: 1271261564b9345488defcc995db813c, type: 3}
       propertyPath: m_Name
       value: PlatformRed (1)
@@ -1915,6 +1931,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7501795912698164118, guid: 1f478a35e68002f4aa795d1fc6b9a111, type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 712e0663350f4294cbe94fd714e8d73f, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2376,6 +2396,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2819831677156278339, guid: 1271261564b9345488defcc995db813c, type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 712e0663350f4294cbe94fd714e8d73f, type: 3}
     - target: {fileID: 3370194077530368179, guid: 1271261564b9345488defcc995db813c, type: 3}
       propertyPath: m_Name
       value: PlatformRed (7)
@@ -2438,7 +2462,15 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3256526322173256487, guid: b85cc4899a9ebf44eb9797c1ff5416b8, type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dc4bc3f7023e8a448dd89490540dee4, type: 3}
+    - target: {fileID: 3256526322173256487, guid: b85cc4899a9ebf44eb9797c1ff5416b8, type: 3}
       propertyPath: Player
+      value: 
+      objectReference: {fileID: 1677643642}
+    - target: {fileID: 3256526322173256487, guid: b85cc4899a9ebf44eb9797c1ff5416b8, type: 3}
+      propertyPath: player
       value: 
       objectReference: {fileID: 1677643642}
     - target: {fileID: 5270351618903041497, guid: b85cc4899a9ebf44eb9797c1ff5416b8, type: 3}
@@ -2534,6 +2566,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2819831677156278339, guid: 1271261564b9345488defcc995db813c, type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 712e0663350f4294cbe94fd714e8d73f, type: 3}
     - target: {fileID: 3370194077530368179, guid: 1271261564b9345488defcc995db813c, type: 3}
       propertyPath: m_Name
       value: PlatformRed (4)
@@ -2927,6 +2963,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2819831677156278339, guid: 1271261564b9345488defcc995db813c, type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 712e0663350f4294cbe94fd714e8d73f, type: 3}
     - target: {fileID: 3370194077530368179, guid: 1271261564b9345488defcc995db813c, type: 3}
       propertyPath: m_Name
       value: PlatformRed (2)
@@ -3008,6 +3048,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2819831677156278339, guid: 1271261564b9345488defcc995db813c, type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 712e0663350f4294cbe94fd714e8d73f, type: 3}
     - target: {fileID: 3370194077530368179, guid: 1271261564b9345488defcc995db813c, type: 3}
       propertyPath: m_Name
       value: PlatformRed (9)
@@ -3167,6 +3211,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2819831677156278339, guid: 1271261564b9345488defcc995db813c, type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 712e0663350f4294cbe94fd714e8d73f, type: 3}
     - target: {fileID: 3370194077530368179, guid: 1271261564b9345488defcc995db813c, type: 3}
       propertyPath: m_Name
       value: PlatformRed (8)
@@ -3405,6 +3453,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7501795912698164118, guid: 1f478a35e68002f4aa795d1fc6b9a111, type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 712e0663350f4294cbe94fd714e8d73f, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3490,6 +3542,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7501795912698164118, guid: 1f478a35e68002f4aa795d1fc6b9a111, type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 712e0663350f4294cbe94fd714e8d73f, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3551,6 +3607,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7501795912698164118, guid: 1f478a35e68002f4aa795d1fc6b9a111, type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 712e0663350f4294cbe94fd714e8d73f, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3601,6 +3661,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2819831677156278339, guid: 1271261564b9345488defcc995db813c, type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 712e0663350f4294cbe94fd714e8d73f, type: 3}
     - target: {fileID: 3370194077530368179, guid: 1271261564b9345488defcc995db813c, type: 3}
       propertyPath: m_Name
       value: PlatformRed (3)
@@ -4061,6 +4125,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7501795912698164118, guid: 1f478a35e68002f4aa795d1fc6b9a111, type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 712e0663350f4294cbe94fd714e8d73f, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4146,6 +4214,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7501795912698164118, guid: 1f478a35e68002f4aa795d1fc6b9a111, type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 712e0663350f4294cbe94fd714e8d73f, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4948,6 +5020,10 @@ PrefabInstance:
       value: ButtonRoot
       objectReference: {fileID: 0}
     - target: {fileID: 3900337356972869281, guid: 12ec2ce5bdb47264cbbd8f5ea1dc3d24, type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 8300000, guid: ededc217b1b519f48867b70ea817af54, type: 3}
+    - target: {fileID: 3900337356972869281, guid: 12ec2ce5bdb47264cbbd8f5ea1dc3d24, type: 3}
       propertyPath: delete
       value: 
       objectReference: {fileID: 975418919}
@@ -5234,6 +5310,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3256526322173256487, guid: b85cc4899a9ebf44eb9797c1ff5416b8, type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dc4bc3f7023e8a448dd89490540dee4, type: 3}
     - target: {fileID: 3256526322173256487, guid: b85cc4899a9ebf44eb9797c1ff5416b8, type: 3}
       propertyPath: Player
       value: 
@@ -5527,6 +5607,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2819831677156278339, guid: 1271261564b9345488defcc995db813c, type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 712e0663350f4294cbe94fd714e8d73f, type: 3}
     - target: {fileID: 3370194077530368179, guid: 1271261564b9345488defcc995db813c, type: 3}
       propertyPath: m_Name
       value: PlatformRed
@@ -5640,6 +5724,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7501795912698164118, guid: 1f478a35e68002f4aa795d1fc6b9a111, type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 712e0663350f4294cbe94fd714e8d73f, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5662,7 +5750,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ae235cd6ad1f6549b094a778dc46da8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 1677643642}
+  sound: {fileID: 8300000, guid: 5dc4bc3f7023e8a448dd89490540dee4, type: 3}
+  player: {fileID: 0}
 --- !u!1 &2121147114
 GameObject:
   m_ObjectHideFlags: 0
@@ -5848,6 +5937,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7501795912698164118, guid: 1f478a35e68002f4aa795d1fc6b9a111, type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 712e0663350f4294cbe94fd714e8d73f, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

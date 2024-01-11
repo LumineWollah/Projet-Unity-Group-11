@@ -6,6 +6,7 @@ public class GameOverAreaScript : MonoBehaviour
     public Collider player;
     private void OnTriggerEnter(Collider other)
     {
+        Destroy(this.gameObject);
         if (QuakeLikeFPSScript.hp > 1) {
             QuakeLikeFPSScript.hp--;
             AudioSource.PlayClipAtPoint(sound, transform.position);

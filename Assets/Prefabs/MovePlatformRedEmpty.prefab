@@ -80,6 +80,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ObjectRed: {fileID: 8061858147848526938}
   ObjectRedEmpty: {fileID: 7491883402298786762}
+  sound: {fileID: 8300000, guid: 712e0663350f4294cbe94fd714e8d73f, type: 3}
 --- !u!114 &1818722307099945636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -261,7 +262,7 @@ Transform:
   - {fileID: 1729925753722099215}
   - {fileID: 1272063834305349500}
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8061858147848526938
 GameObject:

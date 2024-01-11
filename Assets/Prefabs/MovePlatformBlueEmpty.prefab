@@ -126,6 +126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ObjectBlue: {fileID: 5115721599500539559}
   ObjectBlueEmpty: {fileID: 4173182498598535271}
+  sound: {fileID: 8300000, guid: 712e0663350f4294cbe94fd714e8d73f, type: 3}
 --- !u!114 &7971905868228814201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -390,5 +391,5 @@ Transform:
   - {fileID: 3413078745247877519}
   - {fileID: 8570866513898527558}
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
